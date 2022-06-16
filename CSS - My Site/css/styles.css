@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 2em;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #3d5e66;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #3d5e66;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #5ba9ab;
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+a {
+  color: #3d5e66;
+  text-decoration: none;
+  margin: 0 2em;
+}
+
+hr {
+  border: 7px dotted;
+  border-style: none none dotted;
+  border-color: #6edcd9;
+  width: 5%;
+  margin: 150px auto;
+}
+
+/*********************** CONTAINERS **************************/
+
+.top-container {
+  background-color: #6edcd9;
+  position: relative;
+  padding-top: 7%;
+}
+
+.profile {
+  padding-top: 70px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 90px;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  padding: 50px 0 15px;
+  background-color: #6edcd9;
+  font-size: 1.25rem;
+}
+
+/************************ IMAGES + IMAGE POSITIONING ******************/
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  top: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+}
+
+.profile-image {
+  border: 5px solid #f8d971;
+  border-radius: 50%;
+}
+
+.skill-image-idea {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image-unicorn {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/***************************** BUTTON ******************/
+
+.btn {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  -webkit-box-shadow: 2px 3px 10px #bdbdbd;
+  -moz-box-shadow: 2px 3px 10px #bdbdbd;
+  box-shadow: 2px 3px 10px #bdbdbd;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  background: #6edcd9;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+  background: #f8d971;
+  text-decoration: none;
+}
+
+/******************************** OTHER STUFF *****************************/
+.copyright-note {
+  font-size: 0.8rem;
+  color: #ffffff;
+  margin-top: 3rem;
+}
